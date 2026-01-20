@@ -10970,3 +10970,38 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.subheading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.dev-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dev-icons li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 0;
+}
+
+.dev-icons img,
+.dev-icons i {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+}
+
+.dev-icons span {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #333;
+}
